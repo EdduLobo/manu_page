@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Brave Regular";
+  src: url("../src/assets/fonts/Brave-DZK0.woff");
+}
+
+/* Define a imagem de fundo */
+body {
+  background-image: url("../src/assets/images/1707195.jpg");
+  font-family: "Brave Regular", sans-serif;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  color: #ffffff;
+  margin: 0px;
+}
+
+/* Centraliza o h1 */
+#title {
+  margin-top: 40%;
+}
+h1 {
+  text-align: center;
+}
+
+/* Alinha a barra de navegação horizontalmente e configura a posição do conteúdo da nav*/
+nav {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  background-color: #4293a0;
+  padding: 3%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+}
+ul {
+  margin: 0;
+  padding-inline: 15%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* posição das sessões*/
+section {
+  display: block;
+  clear: both;
+}
+
+/* Adiciona espaçamento interno para cada seção */
+section {
+  padding: 20px;
+  font-size: 30px;
+}
+
+section p {
+  display: flex;
+  max-width: 50%;
+  word-wrap: break-word;
+}
+
+#backgroundSection {
+  background: #006271;
+  align-items: baseline;
+}
+
+/* Altera o sentido do texto de Data e Recados */
+#data,
+#recados {
+  direction: rtl;
+}
+
+/* Altera a imagem da primeira sessão */
+
+#braveUm {
+  display: flex;
+  margin-left: 40px;
+  width: 30%;
+  padding: 10%;
+  float: right;
+}
+
+.sectionAdjust {
+  padding: 10%;
+}
+
+.sectionAdjust2 {
+  padding: 5%;
+}
+
+.sectionAdjust3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10%;
+}
+
+#localizacao {
+  padding-inline: 10%;
+  margin-top: 10%;
+  float: left;
+}
+
+/* targets */
+
+.targets {
+  width: 15%;
+  padding: 5%;
+}
+
+#imgContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+#flexdirect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
