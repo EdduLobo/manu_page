@@ -3,6 +3,11 @@
   src: url("../src/assets/fonts/Brave-DZK0.woff");
 }
 
+@font-face {
+  font-family: "Gotham Rounded Book";
+  src: url("../src/assets/fonts/Gotham\ Rounded\ Book.otf");
+}
+
 html {
   overflow: scroll;
   overflow-x: hidden;
@@ -23,12 +28,33 @@ body {
   margin: 0px;
 }
 
-/* Centraliza o h1 */
-#title {
-  margin-top: 40%;
+p {
+  font-family: "Gotham Rounded Book";
+  font-size: 1.5rem;
+  line-height: 1.4;
 }
+
+/* Centraliza e editar o h1 */
+#title {
+  margin-top: 20%;
+  color: #fff;
+  background-color: #006271;
+  background: linear-gradient(to top, #00000086 0%, rgba(66, 147, 160, 0));
+  padding: 20px;
+}
+
 h1 {
   text-align: center;
+  font-size: 5rem;
+  margin-bottom: 12%;
+  text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: rgb(245, 208, 159);
+  text-shadow: 0 0 2px #0000007f, 0 0 2px #00000059,
+    0 0rgba (0, 0, 0, 0.465) #0000006a, 0 0 2px #00000085;
 }
 
 /* Alinha a barra de navegação horizontalmente e configura a posição do conteúdo da nav*/
@@ -53,8 +79,9 @@ ul {
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 /* posição das sessões*/
@@ -91,7 +118,7 @@ section p {
 #braveUm {
   display: flex;
   margin-left: 40px;
-  margin-top: 10%;
+  margin-top: 5%;
   width: 30%;
   padding: 10%;
   float: right;
@@ -113,7 +140,6 @@ section p {
 
 .sectionAdjust3 {
   display: flex;
-
   align-items: center;
   margin-top: 10%;
   width: 100%;
@@ -121,12 +147,12 @@ section p {
 
 #localizacao {
   padding-inline: 10%;
-  margin-top: 10%;
   float: left;
+  margin-bottom: 20%;
 }
 
 #localica {
-  border: 3px solid white;
+  border: 3px solid rgb(245, 208, 159);
   border-radius: 30px;
 }
 

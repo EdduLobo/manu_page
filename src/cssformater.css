@@ -9,7 +9,7 @@
 }
 
 #form-viking {
-  background-color: #4293a0;
+  background-color: #4293a0f0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,7 +21,7 @@
   padding-inline: 40%;
   padding-top: 10%;
   padding-bottom: 20%;
-  border: 3px solid #ffefa5;
+  border: 3px solid rgb(245, 208, 159);
 }
 
 #form-viking h1 {
@@ -74,4 +74,26 @@
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
+}
+
+#mapl {
+  text-align: end;
+}
+
+#texto-rodape {
+  font-family: "Brave Regular", sans-serif;
+  font-size: 2.5rem;
+}
+
+#datad {
+  text-align: end;
+}
+
+#datadd {
+  text-align: end;
+}
+
+footer {
+  padding: 1%;
+  background-color: #4293a0f0;
 }
