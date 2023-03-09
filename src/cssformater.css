@@ -1,0 +1,77 @@
+#background-m {
+  display: flex;
+  background-image: url("../src/assets/images/merida_brave2.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  filter: grayscale(50%);
+  padding: 30%;
+}
+
+#form-viking {
+  background-color: #4293a0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Brave Regular", sans-serif;
+  color: #fff;
+  width: 100%;
+  max-width: 20%;
+  border-radius: 10px;
+  padding-inline: 40%;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  border: 3px solid #ffefa5;
+}
+
+#form-viking h1 {
+  font-size: 3rem;
+  margin-bottom: 30%;
+}
+
+#form-viking h2 {
+  font-size: 1.5rem;
+  margin: 10px 0 5px;
+}
+
+#form-viking p {
+  font-size: 1.3rem;
+  line-height: 1.2;
+  margin: 5px 0;
+  text-align: center;
+}
+
+#form-viking button {
+  background-color: #8bc34a;
+  color: #fff;
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 20px 60px 20px 60px;
+  margin: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#form-viking button:hover {
+  background-color: #608c2f;
+}
+
+#form-viking button:focus {
+  outline: none;
+}
+
+#texto-rodape {
+  text-align: center;
+  font-size: 2em;
+}
+
+#botoes {
+  margin-top: 40%;
+}
+
+#buttoned {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
