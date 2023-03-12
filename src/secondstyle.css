@@ -1,5 +1,32 @@
 /* confirmação do pedido e footer */
 
+#texto-rodape {
+  margin-bottom: 10%;
+  background: #42a077;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+#braveDois {
+  width: 30%;
+  border-radius: 5%;
+  margin-bottom: 5%;
+  border: 5px solid white;
+  padding: 1%;
+}
+
+#adjustII {
+  display: flex;
+  justify-content: center;
+}
+
+#text-rd {
+  text-align: start;
+  font-size: 1.2rem;
+  margin-left: 5%;
+  margin-top: 7%;
+}
+
 #background-m {
   display: flex;
   background-image: url("../src/assets/images/merida_brave2.gif");
