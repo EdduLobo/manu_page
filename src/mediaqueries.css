@@ -1,0 +1,425 @@
+/* media queries 
+@media (min-width: xxxpx) and (max-width: xxxxpx) {}*/
+
+@media (min-width: 320px) and (max-width: 413px) {
+  body {
+    background-size: 200%;
+    background-position: -100px -10px;
+  }
+
+  #title {
+    text-align: center;
+    margin-top: 70%;
+    padding: 0;
+  }
+
+  #subtitle {
+    font-size: 1rem;
+    margin: 0;
+    padding: 10%;
+  }
+
+  ul {
+    padding: 5%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  #backgroundSection {
+    text-align: center;
+  }
+
+  section p {
+    display: flex;
+    text-align: center;
+    max-width: 100%;
+    word-wrap: break-word;
+    font-size: 1rem;
+  }
+
+  #braveUm {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 15%;
+    width: 60%;
+    padding: 5%;
+    float: none;
+    border: 3px solid white;
+    border-radius: 50%;
+  }
+
+  #localica {
+    border: 3px solid rgb(245, 208, 159);
+    border-radius: 30px;
+    width: 100%;
+    height: 300px;
+  }
+  #mapl {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20%;
+  }
+
+  #form-viking {
+    padding: 34.2%;
+    border-radius: 0;
+    background-color: #4293a092;
+  }
+
+  #background-m {
+    padding: 0;
+    background-position: -300px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4293a0;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 424px) {
+  body {
+    background-size: 200%;
+    background-position: -100px -10px;
+  }
+
+  #title {
+    text-align: center;
+    margin-top: 70%;
+    padding: 0;
+  }
+
+  #subtitle {
+    font-size: 1rem;
+    margin: 0;
+    padding: 10%;
+  }
+
+  ul {
+    padding: 5%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  #backgroundSection {
+    text-align: center;
+  }
+
+  section p {
+    display: flex;
+    text-align: center;
+    max-width: 100%;
+    word-wrap: break-word;
+    font-size: 1.5rem;
+  }
+
+  #braveUm {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 15%;
+    width: 60%;
+    padding: 5%;
+    float: none;
+    border: 3px solid white;
+    border-radius: 50%;
+  }
+
+  #localica {
+    border: 3px solid rgb(245, 208, 159);
+    border-radius: 30px;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50%;
+  }
+  #mapl {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20%;
+  }
+
+  #form-viking {
+    padding: 34.3%;
+    border-radius: 0;
+    background-color: #4293a092;
+  }
+
+  #background-m {
+    background-position: -300px;
+    padding: 0;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4293a0;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 800px) {
+  body {
+    background-size: 200%;
+    background-position: -100px -10px;
+  }
+
+  #title {
+    text-align: center;
+    margin-top: 70%;
+    padding: 0;
+  }
+
+  #subtitle {
+    font-size: 1rem;
+    margin: 0;
+    padding: 10%;
+  }
+
+  ul {
+    padding: 5%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  #backgroundSection {
+    text-align: center;
+  }
+
+  section p {
+    display: flex;
+    text-align: center;
+    max-width: 100%;
+    word-wrap: break-word;
+    font-size: 2.5rem;
+  }
+
+  #braveUm {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 15%;
+    width: 60%;
+    padding: 5%;
+    float: none;
+    border: 3px solid white;
+    border-radius: 50%;
+  }
+
+  #localica {
+    border: 3px solid rgb(245, 208, 159);
+    border-radius: 30px;
+    width: 540px;
+    height: 450px;
+    margin-bottom: 50%;
+  }
+  #mapl {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20%;
+  }
+
+  #form-viking {
+    padding: 34.6%;
+    border-radius: 0;
+    background-color: #4293a092;
+  }
+
+  #background-m {
+    background-position: -300px;
+    padding: 0;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4293a0;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  #braveUm {
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 719px) {
+  body {
+    background-size: 200%;
+    background-position: -100px -10px;
+  }
+
+  #title {
+    text-align: center;
+    margin-top: 70%;
+    padding: 0;
+  }
+
+  #subtitle {
+    font-size: 1rem;
+    margin: 0;
+    padding: 10%;
+  }
+
+  ul {
+    padding: 5%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  #backgroundSection {
+    text-align: center;
+  }
+
+  section p {
+    display: flex;
+    text-align: center;
+    max-width: 100%;
+    word-wrap: break-word;
+    font-size: 2rem;
+  }
+
+  #braveUm {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 15%;
+    width: 60%;
+    padding: 5%;
+    float: none;
+    border: 3px solid white;
+    border-radius: 50%;
+  }
+
+  #localica {
+    border: 3px solid rgb(245, 208, 159);
+    border-radius: 30px;
+    width: 440px;
+    height: 300px;
+    margin-bottom: 50%;
+  }
+  #mapl {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20%;
+  }
+
+  #form-viking {
+    padding: 34.5%;
+    border-radius: 0;
+    background-color: #4293a092;
+  }
+
+  #background-m {
+    background-position: -300px;
+    padding: 0;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4293a0;
+  }
+
+  @media (max-width: 687px) {
+    body {
+      background-size: 200%;
+      background-position: -100px -10px;
+    }
+
+    #title {
+      text-align: center;
+      margin-top: 70%;
+      padding: 0;
+    }
+
+    #subtitle {
+      font-size: 1rem;
+      margin: 0;
+      padding: 10%;
+    }
+
+    ul {
+      padding: 5%;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    #backgroundSection {
+      text-align: center;
+    }
+
+    section p {
+      display: flex;
+      text-align: center;
+      max-width: 100%;
+      word-wrap: break-word;
+      font-size: 2.5rem;
+    }
+
+    #braveUm {
+      display: flex;
+      margin-left: 15%;
+      margin-top: 15%;
+      width: 60%;
+      padding: 5%;
+      float: none;
+      border: 3px solid white;
+      border-radius: 50%;
+    }
+
+    #localica {
+      border: 3px solid rgb(245, 208, 159);
+      border-radius: 30px;
+      width: 510px;
+      height: 450px;
+      margin-bottom: 50%;
+    }
+    #mapl {
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 20%;
+    }
+
+    #form-viking {
+      padding: 34.6%;
+      border-radius: 0;
+      background-color: #4293a092;
+    }
+
+    #background-m {
+      background-position: -100px;
+      padding: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #4293a0;
+    }
+  }
+}

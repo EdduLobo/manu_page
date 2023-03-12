@@ -25,7 +25,8 @@ body {
   background-size: 100%;
   background-attachment: fixed;
   color: #ffffff;
-  margin: 0px;
+
+  margin: 0;
 }
 
 p {
@@ -43,10 +44,17 @@ p {
   padding: 20px;
 }
 
+#subtitle {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000;
+}
+
 h1 {
   text-align: center;
   font-size: 5rem;
-  margin-bottom: 12%;
+  margin-bottom: 6%;
   text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000;
 }
 
@@ -60,7 +68,6 @@ h2 {
 /* Alinha a barra de navegação horizontalmente e configura a posição do conteúdo da nav*/
 nav {
   display: flex;
-  max-width: 100%;
   justify-content: center;
   background-color: #4293a0;
   padding: 3%;
@@ -172,5 +179,3 @@ section p {
 #m2 {
   width: 60%;
 }
-
-/* confirmação do pedido e footer */

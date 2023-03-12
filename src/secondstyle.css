@@ -1,26 +1,29 @@
+/* confirmação do pedido e footer */
+
 #background-m {
   display: flex;
   background-image: url("../src/assets/images/merida_brave2.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: -170px;
   filter: grayscale(50%);
   padding: 30%;
 }
 
 #form-viking {
   background-color: #4293a0f0;
+  backdrop-filter: blur(5px);
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: "Brave Regular", sans-serif;
   color: #fff;
   width: 100%;
-  max-width: 20%;
+  max-width: 30%;
   border-radius: 10px;
   padding-inline: 40%;
-  padding-top: 10%;
-  padding-bottom: 20%;
+  padding-bottom: 5%;
   border: 3px solid rgb(245, 208, 159);
 }
 
